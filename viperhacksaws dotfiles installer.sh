@@ -18,14 +18,14 @@ echo "Removing extra packages..."
 sudo pacman -R firefox htop nautilus nwg-dock-hyprland --noconfirm --needed --noprogressbar
 
 echo "Downloading assets and configs..."
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/assets/OSX%20Snow%20Leopard%20Wallpaper.jpg
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/assets/dogicon.png
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/.config/fastfetch/config.jsonc
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/.config/hypr/conf/keybindings/default.lua
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/.config/hypr/conf/keybindings/default.lua
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/.config/hypr/hyprmod/profiles/5e59155607ab/hyprland-gui.lua
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/.config/hypr/hyprmod/profiles/5e59155607ab/meta.json
-curl -O https://raw.githubusercontent.com/viperhacksaws/viperhacksaws-linux/refs/heads/main/.config/kitty/kitty.conf
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/assets/OSX%20Snow%20Leopard%20Wallpaper.jpg
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/assets/dogicon.png
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/.config/fastfetch/config.jsonc
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/.config/hypr/conf/keybindings/default.lua
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/.config/hypr/conf/keybindings/default.lua
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/.config/hypr/hyprmod/profiles/5e59155607ab/hyprland-gui.lua
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/.config/hypr/hyprmod/profiles/5e59155607ab/meta.json
+curl -O https://raw.githubusercontent.com/viperhacksaws/Vyprland/refs/heads/main/.config/kitty/kitty.conf
 
 echo "Deploying configs..."
 mv ~/OSX%20Snow%20Leopard%20Wallpaper.jpg ~/OSX\ Snow\ Leopard.jpg
